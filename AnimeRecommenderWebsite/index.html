@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0" />
+    <title>Find an Anime to Watch</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="anime-wrapper">
+        <div class="meal-search">
+          <h2 class="title">Find Anime</h2>
+          <blockquote>
+            Bed rot while watching anime. <br />
+            <cite>- Cid</cite>
+          </blockquote>
+          <div class="anime-search-box">
+            <input
+              type="text"
+              class="search-control"
+              placeholder="Enter anime"
+              id="search-input"
+            />
+            <button type="submit" class="search-btn btn" id="search-btn">
+              <p class="fas fa-search">Search</p>
+            </button>
+          </div>
+        </div>
+        <div class="anime-result">
+          <h2 class="title">Your Recommendations:</h2>
+          <div id="anime">
+            <!--anime item-->
+            <!--<div class="anime-item">
+              <div class="anime-img">
+                <img src="images/onepiece.jpg" alt="onepiece" />
+              </div>
+              <div class="anime-name">
+                <h3>One piece</h3>
+                <a href="#" class="anime-btn">Watch Anime</a>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        <div class="anime-details">
+          <!-- anime close btn-->
+          <button
+            type="button"
+            class="btn anime-close-btn"
+            id="anime-close-btn"
+          >
+            <p class="fas fa-times">X</p>
+          </button>
+
+          <!-- anime content-->
+          <div class="anime-details-content">
+            <h2 class="anime-title">Anime Name Here</h2>
+            <p class="anime-genre">Genre</p>
+            <div class="anime-story">
+              <h3>Story:</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aliquid, nulla tempora animi ad maiores dignissimos! Excepturi
+                enim distinctio beatae dolore hic deserunt ipsa recusandae quos
+                reiciendis! Pariatur officiis eveniet tenetur.
+              </p>
+            </div>
+            <div class="story-img">
+              <img src="images/onepiece.jpg" alt="" />
+            </div>
+            <div class="story-link">
+              <a href="#" target="_blank">Read manga</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
