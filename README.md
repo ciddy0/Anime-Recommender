@@ -5,7 +5,7 @@ interface using Jikan API.
 
 ## Features
 
-- **Matrix Factorization using PyTorch for user anime-anime rating predictions
+- **Matrix Factorization** using PyTorch for user anime-anime rating predictions
 - **KMeans clustering** to group similar anime based on learned embeddings
 - **Live anime info** using Jikan API for search & detailed animes
 - **Personliazed Recomemndations** from users favorite anime
