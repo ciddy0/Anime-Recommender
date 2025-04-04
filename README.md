@@ -22,7 +22,7 @@ interface using Jikan API.
     - Search anime with Jikan API
     - Displays recommended anime from the same cluster
     - Fetches real-time anime details & images
-## link to Notebook
+## Link to Notebook
 Link to [Anime Recommendation Notebook](https://colab.research.google.com/drive/1WqTzwzjoz6W6m4I7ACbczVubPvDWqxnQ?usp=sharing)
 
 ## License
