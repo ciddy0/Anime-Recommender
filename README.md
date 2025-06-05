@@ -1,6 +1,6 @@
 # Anime Recommendation System
 
-An Anime Recommender web app that clusters anime based on collabortive filtering adn displays suggestiosn based on users favorite anime via a web
+An Anime Recommender web app that clusters anime based on collabortive filtering and displays suggestions based on users favorite anime via a web
 interface using Jikan API.
 
 ## Features
